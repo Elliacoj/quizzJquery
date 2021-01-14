@@ -1,0 +1,340 @@
+{
+  "questionnaire1": [
+    {
+      "question": [
+        {
+          "1": "Quel célèbre dictateur dirigea l’URSS du milieu des années 1920 à 1953?",
+          "2": "Dans quel pays peut-on trouver la Catalogne, l’Andalousie et la Castille?",
+          "3": "Qui a dit : « Le sort en est jeté » (Alea jacta est)?",
+          "4": "Quel cinéaste a réalisé « Parle avec elle » et « Volver »?",
+          "5": "À qui doit-on la chanson « I Shot the Sheriff »?",
+          "6": "Quel pays a remporté la coupe du monde de football en 2014?",
+          "7": "Dans quelle ville italienne l’action de la pièce de Shakespeare « Roméo et Juliette » se situe-t-elle?",
+          "8": "Par quel mot désigne-t-on une belle-mère cruelle?",
+          "9": "Qui était le dieu de la guerre dans la mythologie grecque?",
+          "10": "Parmi les animaux suivants, lequel peut se déplacer le plus rapidement?"
+        }
+      ],
+
+      "reponse": [
+        {
+          "1": [
+            {
+              "1": "Staline",
+              "2": "Molotov",
+              "3": "Lénine",
+              "4": "Troski"
+            }
+          ],
+
+          "2": [
+            {
+              "1": "L'Espagne'",
+              "2": "La France",
+              "3": "L'Italie",
+              "4": "Le Portugal"
+            }
+          ],
+
+          "3": [
+            {
+              "1": "César",
+              "2": "Attila",
+              "3": "Auguste",
+              "4": "Vercingétorix"
+            }
+          ],
+
+          "4": [
+            {
+              "1": "Pedro Almodovar",
+              "2": "Pablo Trapero",
+              "3": "Woody Allen",
+              "4": "Guillermo del Toro"
+            }
+          ],
+
+          "5": [
+            {
+              "1": "Bob Marley",
+              "2": "Eric Clapton",
+              "3": "Jim Morrison",
+              "4": "UB40"
+            }
+          ],
+
+          "6": [
+            {
+              "1": "L'Allemagne",
+              "2": "L'Argentine",
+              "3": "Le Brésil",
+              "4": "L'Italie"
+            }
+          ],
+
+          "7": [
+            {
+              "1": "Vérone",
+              "2": "Venise",
+              "3": "Milan",
+              "4": "Rome"
+            }
+          ],
+
+          "8": [
+            {
+              "1": "Une marâtre",
+              "2": "Une jocrisse",
+              "3": "Une godiche",
+              "4": "Une chenapan"
+            }
+          ],
+
+          "9": [
+            {
+              "1": "Arès",
+              "2": "Hadès",
+              "3": "Hermès",
+              "4": "Apollon"
+            }
+          ],
+
+          "10": [
+            {
+              "1": "Le léopard",
+              "2": "Le springbok",
+              "3": "Le mgbobe",
+              "4": "Le chevreuil"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+
+  "questionnaire2": [
+    {
+      "question": [
+        {
+          "1": "",
+          "2": "",
+          "3": "",
+          "4": "",
+          "5": "",
+          "6": "",
+          "7": "",
+          "8": "",
+          "9": "",
+          "10": ""
+        }
+      ],
+
+      "reponse": [
+        {
+          "1": [
+            {
+              "1": "",
+              "2": "",
+              "3": "",
+              "4": ""
+            }
+          ],
+
+          "2": [
+            {
+              "1": "",
+              "2": "",
+              "3": "",
+              "4": ""
+            }
+          ],
+
+          "3": [
+            {
+              "1": "",
+              "2": "",
+              "3": "",
+              "4": ""
+            }
+          ],
+
+          "4": [
+            {
+              "1": "",
+              "2": "",
+              "3": "",
+              "4": ""
+            }
+          ],
+
+          "5": [
+            {
+              "1": "",
+              "2": "",
+              "3": "",
+              "4": ""
+            }
+          ],
+
+          "6": [
+            {
+              "1": "",
+              "2": "",
+              "3": "",
+              "4": ""
+            }
+          ],
+
+          "7": [
+            {
+              "1": "",
+              "2": "",
+              "3": "",
+              "4": ""
+            }
+          ],
+
+          "8": [
+            {
+              "1": "",
+              "2": "",
+              "3": "",
+              "4": ""
+            }
+          ],
+
+          "9": [
+            {
+              "1": "",
+              "2": "",
+              "3": "",
+              "4": ""
+            }
+          ],
+
+          "10": [
+            {
+              "1": "",
+              "2": "",
+              "3": "",
+              "4": ""
+            }
+          ]
+        }
+      ]
+    }
+  ],
+
+  "questionnaire3": [
+    {
+      "question": [
+        {
+          "1": "",
+          "2": "",
+          "3": "",
+          "4": "",
+          "5": "",
+          "6": "",
+          "7": "",
+          "8": "",
+          "9": "",
+          "10": ""
+        }
+      ],
+
+      "reponse": [
+        {
+          "1": [
+            {
+              "1": "",
+              "2": "",
+              "3": "",
+              "4": ""
+            }
+          ],
+
+          "2": [
+            {
+              "1": "",
+              "2": "",
+              "3": "",
+              "4": ""
+            }
+          ],
+
+          "3": [
+            {
+              "1": "",
+              "2": "",
+              "3": "",
+              "4": ""
+            }
+          ],
+
+          "4": [
+            {
+              "1": "",
+              "2": "",
+              "3": "",
+              "4": ""
+            }
+          ],
+
+          "5": [
+            {
+              "1": "",
+              "2": "",
+              "3": "",
+              "4": ""
+            }
+          ],
+
+          "6": [
+            {
+              "1": "",
+              "2": "",
+              "3": "",
+              "4": ""
+            }
+          ],
+
+          "7": [
+            {
+              "1": "",
+              "2": "",
+              "3": "",
+              "4": ""
+            }
+          ],
+
+          "8": [
+            {
+              "1": "",
+              "2": "",
+              "3": "",
+              "4": ""
+            }
+          ],
+
+          "9": [
+            {
+              "1": "",
+              "2": "",
+              "3": "",
+              "4": ""
+            }
+          ],
+
+          "10": [
+            {
+              "1": "",
+              "2": "",
+              "3": "",
+              "4": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
