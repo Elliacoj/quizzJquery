@@ -49,30 +49,33 @@ $('#begin').click(function () {
             });
 
             checkBox.click(function () {
-                if(resultat.length < questionNumber) {
-                    if($(this).parent().children().get(2).innerHTML === array[randomN][0]["reponse"][0]["" + questionNumber + ""][0]["1"]) {
-                        resultat.push(1);
-                    }
-
-                    else {
-                        resultat.push(0);
-                    }
-                }
-
+                console.log(resultat);
                 if($(this).is(':checked')) {
+                    if(resultat.length === questionNumber) {
+                        resultat.pop();
+                    }
+
                     $.each(checkBox, function () {
-                        $(this).prop('disabled', true);
+                        $(this).prop('checked', false);
                     });
 
-                    $(this).prop('disabled', false);
+                    $(this).prop('checked', true);
+
+                    if(resultat.length < questionNumber) {
+                        if($(this).parent().children().get(2).innerHTML === array[randomN][0]["reponse"][0]["" + questionNumber + ""][0]["1"]) {
+                            resultat.push(1);
+                        }
+
+                        else {
+                            resultat.push(0);
+                        }
+                    }
                 }
 
                 else {
-                    $.each(checkBox, function () {
-                        $(this).prop('disabled', false);
-                    });
-
-                    resultat.pop();
+                    if(resultat.length === questionNumber) {
+                        resultat.pop();
+                    }
                 }
             });
         });
