@@ -4,6 +4,7 @@ let answer = [$('#answerA'), $('#answerB'), $('#answerC'), $('#answerD')];
 let audio = $('audio');
 let container = $('#container');
 let checkBox = $('input');
+let score = $('#score span');
 
 $('#begin').click(function () {
     audio[0].play();
@@ -34,10 +35,15 @@ $('#begin').click(function () {
 
 
             $('#check').click(function () {
-                console.log(resultat)
-                if(resultat.length === questionNumber) {
-                    questionNumber++;
-                    nextQuestion(array[0]);
+                if(questionNumber < 10) {
+                    if(resultat.length === questionNumber) {
+                        questionNumber++;
+                        nextQuestion(array[0]);
+                    }
+                }
+
+                else {
+                    endGame(array[0]);
                 }
             });
 
@@ -119,4 +125,31 @@ function resetCheck() {
     $.each(checkBox, function () {
         $(this).prop('disabled', false).prop('checked', false);
     });
+}
+
+function endGame(item) {
+    let number = 0;
+    $.each($('#answerQ p'), function () {
+        if(resultat[number] === 1) {
+            score.text(parseFloat(score.text()) + 1)
+            $(this).text("Question" + (number + 1) + ": Bravo");
+            $(this).css('color', "green");
+            number++;
+        }
+
+        else {
+            $(this).text("Question" + (number + 1) + ": dommage, la réponse était " + item[0]["reponse"][0]["" + (number + 1) + ""][0]["1"]);
+            $(this).css('color', "red");
+            number++;
+        }
+    });
+
+    container.fadeOut(500);
+
+    setTimeout(function () {
+        $('#questionDiv').css('display', 'none');
+        $('#resultDiv').css('display', 'flex');
+
+        container.fadeIn(500);
+    },500)
 }

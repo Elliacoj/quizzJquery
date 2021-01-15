@@ -27,7 +27,7 @@ body {
     background: radial-gradient(circle, rgba(196,197,233,1) 0%, rgba(53,37,235,1) 50%, rgba(8,9,19,1) 100%);
 }
 
-#home, #questionDiv, #choices {
+#home, #questionDiv, #choices, #resultDiv {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -37,11 +37,11 @@ body {
     width: 100%;
 }
 
-#questionDiv {
+#questionDiv, #resultDiv {
     display: none;
 }
 
-#title, #questionNumber {
+#title, #questionNumber, #resultDiv, #score {
     text-align: center;
     font-weight: bold;
     font-size: 3.5rem;
@@ -49,11 +49,11 @@ body {
     text-shadow: 4px 4px 4px lightgray;
 }
 
-#rules, #rules p {
+#rules, #rules p, #answerQ p, #answerQ {
     width: 100%;
 }
 
-#rules p {
+#rules p, #answerQ p {
     padding: 0 3%;
     text-align: justify;
     margin-top: 4%;
@@ -71,7 +71,7 @@ button {
 
 #choices div {
     width: 35%;
-    margin: 2% 0% 2% 12%;
+    margin: 2% 0 2% 12%;
 }
 
 label, .inline {
@@ -92,4 +92,26 @@ label, .inline {
     font-style: italic;
     text-align: center;
     padding: 0 2%;
+}
+
+
+
+@media  screen and (max-width: 1000px){
+    html {
+        font-size: 40%;
+    }
+}
+
+@media  screen and (max-width: 750px){
+    #container {
+        width: 100%;
+        margin: 0;
+    }
+}
+
+@media  screen and (max-width: 450px){
+    #choices div {
+        width: 47%;
+        margin: 2% 0 2% 2%;
+    }
 }
