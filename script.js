@@ -49,7 +49,6 @@ $('#begin').click(function () {
             });
 
             checkBox.click(function () {
-                console.log(resultat);
                 if($(this).is(':checked')) {
                     if(resultat.length === questionNumber) {
                         resultat.pop();
