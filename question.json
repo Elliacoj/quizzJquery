@@ -116,16 +116,16 @@
     {
       "question": [
         {
-          "1": "",
-          "2": "",
-          "3": "",
-          "4": "",
-          "5": "",
-          "6": "",
-          "7": "",
-          "8": "",
-          "9": "",
-          "10": ""
+          "1": "Les Jeux olympiques ont été rénovés par le baron de Coubertin en:",
+          "2": "Lors d’un combat de boxe anglaise, combien de temps un adversaire doit-il rester au sol pour être déclaré knock out (KO)?",
+          "3": "Dans quel pays a eu lieu la Coupe du monde de football en 1994?",
+          "4": "Où ont eu lieu les Jeux olympiques d’été en 2008?",
+          "5": "Qui fut le plus jeune vainqueur du tournoi de Roland-Garros?",
+          "6": "Combien y a-t-il de joueurs sur le terrain dans une équipe de base-ball?",
+          "7": "Où sont, en général, les places les plus chères dans une arène de corrida?",
+          "8": "Comment appelle-t-on un bateau à trois coques?",
+          "9": "Quel est le nom officiel du terrain de tennis?",
+          "10": "Dans quel sport emploie-t-on les termes suivants : split, spare, strike…?"
         }
       ],
 
@@ -133,91 +133,91 @@
         {
           "1": [
             {
-              "1": "",
-              "2": "",
-              "3": "",
-              "4": ""
+              "1": "1894",
+              "2": "1886",
+              "3": "1915",
+              "4": "1925"
             }
           ],
 
           "2": [
             {
-              "1": "",
-              "2": "",
-              "3": "",
-              "4": ""
+              "1": "10 secondes",
+              "2": "5 secondes",
+              "3": "15 secondes",
+              "4": "20 secondes"
             }
           ],
 
           "3": [
             {
-              "1": "",
-              "2": "",
-              "3": "",
-              "4": ""
+              "1": "Les Etats-Unis",
+              "2": "La France",
+              "3": "Le Mexique",
+              "4": "L'Espagne"
             }
           ],
 
           "4": [
             {
-              "1": "",
-              "2": "",
-              "3": "",
-              "4": ""
+              "1": "Pékin",
+              "2": "Sidney",
+              "3": "Athènes",
+              "4": "Rome"
             }
           ],
 
           "5": [
             {
-              "1": "",
-              "2": "",
-              "3": "",
-              "4": ""
+              "1": "Michael Chang",
+              "2": "Ivan Lendl",
+              "3": "Yannick Noah",
+              "4": "Gustavo Kuerten"
             }
           ],
 
           "6": [
             {
-              "1": "",
-              "2": "",
-              "3": "",
-              "4": ""
+              "1": "9",
+              "2": "7",
+              "3": "10",
+              "4": "8"
             }
           ],
 
           "7": [
             {
-              "1": "",
-              "2": "",
-              "3": "",
-              "4": ""
+              "1": "Au premier rang",
+              "2": "A l'ombre",
+              "3": "Au dessus du tunnel de sortie des taureau",
+              "4": "Dans l'arène"
             }
           ],
 
           "8": [
             {
-              "1": "",
-              "2": "",
-              "3": "",
-              "4": ""
+              "1": "Un trimaran",
+              "2": "Un trois mâts",
+              "3": "Un skipper",
+              "4": "Un babord"
             }
           ],
 
           "9": [
             {
-              "1": "",
-              "2": "",
-              "3": "",
-              "4": ""
+              "1": "Le court",
+              "2": "La terre battue",
+              "3": "Le tennis ground",
+              "4": "Le terrain"
             }
           ],
 
           "10": [
             {
-              "1": "",
-              "2": "",
-              "3": "",
-              "4": ""
+              "1": "Au bowling",
+              "2": "Au billard",
+              "3": "A la pétanque",
+              "4": "Au golf"
             }
           ]
         }
@@ -229,16 +229,16 @@
     {
       "question": [
         {
-          "1": "",
-          "2": "",
-          "3": "",
-          "4": "",
-          "5": "",
-          "6": "",
-          "7": "",
-          "8": "",
-          "9": "",
-          "10": ""
+          "1": "Quel est la traduction courante en français pour:  drag and drop?",
+          "2": "Quel est la traduction courante en français pour:  toolbar?",
+          "3": "Quel est la traduction courante en français pour:  lock (to)?",
+          "4": "Quel est la traduction courante en français pour:  Trojan horse?",
+          "5": "Quel est la traduction courante en français pour:  check-box?",
+          "6": "Quel est la traduction courante en français pour:  control panel?",
+          "7": "Quel est la traduction courante en français pour:  data?",
+          "8": "Quel est la traduction courante en français pour:  bug?",
+          "9": "Quel est la traduction courante en français pour:  lower-case?",
+          "10": "Quel est la traduction courante en français pour:  format?"
         }
       ],
 
@@ -246,91 +246,91 @@
         {
           "1": [
             {
-              "1": "",
-              "2": "",
-              "3": "",
-              "4": ""
+              "1": "Glisser-déposer",
+              "2": "Prendre-donner",
+              "3": "Copier-coller",
+              "4": "Pierre-Yves"
             }
           ],
 
           "2": [
             {
-              "1": "",
-              "2": "",
-              "3": "",
-              "4": ""
+              "1": "Barre d'outils",
+              "2": "Boite à aides",
+              "3": "Barre de tâche",
+              "4": "Bar mitsva"
             }
           ],
 
           "3": [
             {
-              "1": "",
-              "2": "",
-              "3": "",
-              "4": ""
+              "1": "Verrouiller",
+              "2": "Bloquer",
+              "3": "Regarder",
+              "4": "Observer"
             }
           ],
 
           "4": [
             {
-              "1": "",
-              "2": "",
-              "3": "",
-              "4": ""
+              "1": "Cheval de Troie",
+              "2": "Corps de cheval",
+              "3": "Cheval à informatique",
+              "4": "Code de cheval"
             }
           ],
 
           "5": [
             {
-              "1": "",
-              "2": "",
-              "3": "",
-              "4": ""
+              "1": "Case à cocher",
+              "2": "Boite à confirmer",
+              "3": "Case vide",
+              "4": "Boite vide"
             }
           ],
 
           "6": [
             {
-              "1": "",
-              "2": "",
-              "3": "",
-              "4": ""
+              "1": "Panneau de configuration",
+              "2": "Panopli de contrôle",
+              "3": "Contrôler le panneau",
+              "4": "Panneau de contrôle"
             }
           ],
 
           "7": [
             {
-              "1": "",
-              "2": "",
-              "3": "",
-              "4": ""
+              "1": "Donnée",
+              "2": "Date",
+              "3": "Document",
+              "4": "Programme"
             }
           ],
 
           "8": [
             {
-              "1": "",
-              "2": "",
-              "3": "",
-              "4": ""
+              "1": "Bogue",
+              "2": "Truc qui va pas bien",
+              "3": "Erreur",
+              "4": "Problème"
             }
           ],
 
           "9": [
             {
-              "1": "",
-              "2": "",
-              "3": "",
-              "4": ""
+              "1": "Minuscule",
+              "2": "Majuscule",
+              "3": "Gras",
+              "4": "Italique"
             }
           ],
 
           "10": [
             {
-              "1": "",
-              "2": "",
-              "3": "",
-              "4": ""
+              "1": "Formater",
+              "2": "Forme",
+              "3": "Formateur",
+              "4": "On verra ça plus tard"
             }
           ]
         }

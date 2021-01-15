@@ -41,7 +41,7 @@ body {
     display: none;
 }
 
-#title, #questionNumber, #resultDiv, #score {
+#title, #questionNumber, #score {
     text-align: center;
     font-weight: bold;
     font-size: 3.5rem;
@@ -94,7 +94,9 @@ label, .inline {
     padding: 0 2%;
 }
 
-
+#answerQ p:nth-child(10) {
+    margin-bottom: 2%;
+}
 
 @media  screen and (max-width: 1000px){
     html {

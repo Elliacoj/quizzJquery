@@ -5,6 +5,7 @@ let audio = $('audio');
 let container = $('#container');
 let checkBox = $('input');
 let score = $('#score span');
+let randomN = random(3)
 
 $('#begin').click(function () {
     audio[0].play();
@@ -31,25 +32,25 @@ $('#begin').click(function () {
                 array.push($(this));
             });
 
-            question(array[0]);
+            question(array[randomN]);
 
 
             $('#check').click(function () {
                 if(questionNumber < 10) {
                     if(resultat.length === questionNumber) {
                         questionNumber++;
-                        nextQuestion(array[0]);
+                        nextQuestion(array[randomN]);
                     }
                 }
 
                 else {
-                    endGame(array[0]);
+                    endGame(array[randomN]);
                 }
             });
 
             checkBox.click(function () {
                 if(resultat.length < questionNumber) {
-                    if($(this).parent().children().get(2).innerHTML === array[0][0]["reponse"][0]["" + questionNumber + ""][0]["1"]) {
+                    if($(this).parent().children().get(2).innerHTML === array[randomN][0]["reponse"][0]["" + questionNumber + ""][0]["1"]) {
                         resultat.push(1);
                     }
 
