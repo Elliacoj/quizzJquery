@@ -7,6 +7,7 @@ let checkBox = $('input');
 let score = $('#score span');
 let randomN = random(3)
 
+// Button for begin game
 $('#begin').click(function () {
     audio[0].play();
     audio[0].loop;
@@ -33,7 +34,6 @@ $('#begin').click(function () {
             });
 
             question(array[randomN]);
-
 
             $('#check').click(function () {
                 if(questionNumber < 10) {
@@ -74,7 +74,6 @@ $('#begin').click(function () {
 
                     resultat.pop();
                 }
-
             });
         });
 });
@@ -92,15 +91,23 @@ function random(number) {
  */
 function question(item) {
     resetCheck();
+
     $('#questionNumber').text("Question " + questionNumber);
     $('#question').text(item[0]["question"][0]["" + questionNumber + ""]);
+
     for(let x = 1; x <= 4; x++) {
         answerR(item, x);
     }
 }
 
+/**
+ * Function for choice the random place for answers
+ * @param item
+ * @param x
+ */
 function answerR(item, x) {
     let numberR = random(4)
+
     if(answer[numberR].text() === "") {
         answer[numberR].text(item[0]["reponse"][0]["" + questionNumber + ""][0]["" + x + ""]);
     }
@@ -110,6 +117,10 @@ function answerR(item, x) {
     }
 }
 
+/**
+ * Function for animate and go to the next question
+ * @param item
+ */
 function nextQuestion(item) {
     container.fadeOut(500);
 
@@ -117,17 +128,26 @@ function nextQuestion(item) {
         for(let x = 0; x < 4; x++) {
             answer[x].text("")
         }
+
         question(item)
         container.fadeIn(500);
     },500)
 }
 
+
+/**
+ * Function for enabled checkbox
+ */
 function resetCheck() {
     $.each(checkBox, function () {
         $(this).prop('disabled', false).prop('checked', false);
     });
 }
 
+/**
+ * Function for animate and go to score and correction for the questionnaire
+ * @param item
+ */
 function endGame(item) {
     let number = 0;
     $.each($('#answerQ p'), function () {
